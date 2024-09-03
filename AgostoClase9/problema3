@@ -1,0 +1,21 @@
+# Ejercicio 3
+######################################################################
+#Escribir un programa que pida al usuario dos números y muestre por pantalla su división. Si
+#el divisor es cero el programa debe mostrar un error.
+pregunta1 = float(input("\n \n Hola ingrese un numero\n\n"))
+
+
+pregunta2 = float(input("\n \n Hola ingrese otro numero\n\n"))
+
+
+division = pregunta1/pregunta2
+
+
+if pregunta2==0 :
+        print("No se puede ingresar cero\n\n")
+else:
+    print("La division es igual a", division)    
+
+
+######################################################################
+

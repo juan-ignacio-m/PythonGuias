@@ -1,0 +1,13 @@
+# Identificar Tipos de Variables
+#############################################################################################
+# Usar type() para identificar el tipo de variable:
+print(type(variable_texto))
+# Salida: <class 'str'>
+
+print(type(variable_numero))
+# Salida: <class 'int'>
+
+print(type(variable_numerodecimal))
+# Salida: <class 'float'>
+#######################################################################
+

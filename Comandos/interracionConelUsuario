@@ -1,0 +1,11 @@
+ #Interacción con el Usuario
+#############################################################################################
+# Preguntar al usuario algo
+input("Cual es tu nombre")
+
+
+# Imprimir la respuesta
+nombre = input("Cual es tu nombre")
+print(f"¡Hola {nombre}!")
+#########################################################################################
+

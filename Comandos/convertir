@@ -1,0 +1,14 @@
+#Convertir Tipos de Variables
+#############################################################################################
+# Forzar un Tipo de variables
+# para forzar un tipo de variable numérica poner int()
+entero = int(555)
+
+
+# para forzar un tipo de variable numérica poner str()
+texto = str("555")
+
+
+# para forzar un tipo de variable numérica poner str()
+decimal = float(55.5)
+#############################################################################################

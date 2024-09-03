@@ -1,0 +1,27 @@
+Imprimir en Pantalla
+
+
+#############################################################################################
+# Imprime en pantalla un texto
+print("hola mundo")
+
+
+# Imprime en pantalla un número
+print(555)
+
+
+# Imprime en pantalla un número con decimales
+print(5.55)
+
+
+# Imprime en pantalla una variable
+unaVariable = "esto una variable tipo string"
+print(unaVariable)
+
+
+# Imprime en pantalla una variable con f delante de las comillas y dentro
+# de ellas corchetes para encerrar cada variable
+otraVariable = 100
+print(f"Esto es una variable llamada = {otraVariable} y es un número")
+#############################################################################
+

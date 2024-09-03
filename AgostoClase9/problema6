@@ -1,0 +1,26 @@
+#Ejercicio  6
+######################################################################
+#Los alumnos de un curso se han dividido en dos grupos A y B de acuerdo al sexo y el
+#nombre. El grupo A esta formado por las mujeres con un nombre anterior a la M y los
+#hombres con un nombre posterior a la N y el grupo B por el resto. Escribir un programa que
+#pregunte al usuario la primera letra de su nombre y sexo, y muestre por pantalla el grupo
+#que le corresponde.
+
+
+# un metodo es una accion propia de una funcion
+# upper es para forzar a que sea mayuscula
+# lower es para forzar a que sea minuscula
+
+
+genero = input("\n \n Dime tus genero M o F\n\n").upper()
+letra = input("\n \n Dime con que letra comienza tu nombre\n\n")
+
+
+if (genero=="F" and letra <= "M") or (genero=="M" and letra >= "N" ) :
+        print("Ud esta en el grupo A\n\n")
+else:
+    print("Ud esta en el grupo B\n\n")
+
+
+
+

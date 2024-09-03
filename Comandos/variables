@@ -1,0 +1,15 @@
+#Crear Variables
+#############################################################################################
+
+
+# Para crear una variable texto nombre_variable es igual al texto que yo quiera entre comillas
+variable_texto = "¡Hola Mundo!"
+
+
+# Para crear una variable número nombre_variable es igual a cualquier número entero
+variable_numero = 555
+
+
+# Para crear una variable numero con coma nombre_variable es igual a cualquier número con decimales usando punto (NO COMA)
+variable_numerodecimal = 5.55
+#############################################################################

@@ -1,0 +1,48 @@
+#Ejercicio 10
+######################################################################
+# La pizzeria Napoli ofrece pizzas vegetarianas y no vegetarianas a sus clientes.
+# Los ingredientes son
+# Ing veg: Pimiento y tofu
+# Ing no veg: Pepperoni, Jamón y Salmón.
+# Escribir una app que pregunte al usuario si quiere una pizza Veggie o no. En función a su
+# respuesta le muestre un menú con los ingredientes para que elija, Solo se puede elegir un
+# ingrediente además de la mozzarella y el tomate q estan en todas las pizzas
+
+
+pregunta = input("\n \n Hola, Bienvenido a Pizzeria Napoli, elige tu variedad de Pizza: \n(seleccione un número para continuar) \n 1. Pizza Vegerariana\n 2. Pizza No Vegerariana\n\n")
+
+
+ing_veggi1= "Pimiento"
+ing_veggi2= "Tofu"
+ing_noveggi1= "Pepperoni"
+ing_noveggi2= "Jamón"
+ing_noveggi3= "Salmón"
+
+
+mensaje_cliente_ganado="\n Tu pizza será muy sabrosa y tendrá estos deliciosos ingredientes: una gran cantidad de Mozzarella, Tomates frescos y "
+mensaje_cliente_perdido="Debes seleccionar una opción válida, vuelve a consultarnos cuando te decidas\n\n"
+mensaje_seleccion="Elige tu ingrediente estrella para darle placer a tu paladar\n(seleccione un número para continuar)\n"
+
+
+if pregunta=="1" :
+    pregunta_veggi = input(f"{mensaje_seleccion} 1. {ing_veggi1} \n 2. {ing_veggi2}\n\n")
+    if pregunta_veggi=="1":
+        print(f"{mensaje_cliente_ganado}{ing_veggi1}\n\n")
+    elif pregunta_veggi=="2":
+        print(f"{mensaje_cliente_ganado}{ing_veggi2}\n\n")
+    else :
+        print(mensaje_cliente_perdido)
+elif pregunta=="2":
+    pregunta_noveggi = input(f"{mensaje_seleccion} 1. {ing_noveggi1} \n 2. {ing_noveggi2} \n 3. {ing_noveggi3}\n\n")
+    if pregunta_noveggi=="1":
+        print(f"{mensaje_cliente_ganado}{ing_noveggi1}\n\n")
+    elif pregunta_noveggi=="2":
+        print(f"{mensaje_cliente_ganado}{ing_noveggi2}\n\n")
+    elif pregunta_noveggi=="3":
+        print(f"{mensaje_cliente_ganado}{ing_noveggi3}\n\n")
+    else:
+        print(mensaje_cliente_perdido)
+else:
+    print(mensaje_cliente_perdido)    
+
+

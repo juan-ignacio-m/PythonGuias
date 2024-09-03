@@ -1,0 +1,14 @@
+######################################################################
+#Escribir un programa que pregunte al usuario su edad y muestre por pantalla si es mayor de
+#edad o no.
+pregunta = int(input("\n \n Hola, Cual es tu edad...\n\n"))
+
+
+if pregunta>= 18 :
+        print("Ud es mayor\n\n")
+else:
+    print("Ud no es mayor\n\n")
+
+
+######################################################################
+

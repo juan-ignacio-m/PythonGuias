@@ -1,0 +1,21 @@
+# Ejercicio 2
+######################################################################
+#Escribir un programa que almacene la cadena de caracteres contraseña en una variable,
+#pregunte al usuario por la contraseña e imprima por pantalla si la contraseña introducida por
+#el usuario coincide con la guardada en la variable teniendo en cuenta mayúsculas y
+#minúsculas.
+clave= "clave123"
+
+
+pregunta = input("\n \n Ingrese una clave ...\n\n")
+
+
+if pregunta==clave :
+        print("Acceso concedido\n\n")
+else:
+    print("Acceso denegado\n\n")
+
+
+
+
+##############################################
