@@ -1,0 +1,13 @@
+# Se almacena una contraseña en una variable, se le pide al usuario que ingrese una clave
+# si esta coincide con la contraseña almacenada enviar acceso correcto y si no denegado
+
+
+v_contrasena = input("Ingresa tu clave\n")
+
+
+if v_contrasena == "claveMaestra513" :
+    print("Acceso correcto")
+else :
+    print("Acceso denegado")
+
+

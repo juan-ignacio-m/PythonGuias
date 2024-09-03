@@ -1,0 +1,22 @@
+#Ejercicio 8 
+#Escribir un programa que pregunte al usuario una cantidad a invertir,
+#el interés anual y el número de años, y muestre por pantalla el capital
+#obtenido en la inversión.
+#formula de interes compuesto: cf = ci * (1+tasa)**cant de periodos
+
+
+cantidad = float(input("Ingrese la cantidad que deseas invertir en la bolsa AXO\n"))
+intere_anual = float(input("Ingrese su interes sin el simbolo %"))
+periodo = int(input("Ingrese numero de años que deseas invertir"))
+
+
+tasa_convertida = intere_anual/100
+
+
+cf = cantidad * (1+tasa_convertida)**periodo
+
+
+
+
+print (f"El capital obtenido luego de la inversion va a ser de {cf} ")
+

@@ -1,0 +1,15 @@
+#Ejercicio  3
+######################################################################
+# Hacer una app q pida al usuario 2 números y muestre por pantalla
+# su división. si el divisor es cero el programa debe mostrar error.
+
+
+dividendo = int(input("Dime un numero\n"))
+divisor = int(input("Dime otro numero\n"))
+if divisor==0 :
+    print("Error fatal")
+else :
+    division = dividendo /divisor
+    print(f"El resultado de la division es {division}")
+    print("Clave incorrecta")
+######################################################################

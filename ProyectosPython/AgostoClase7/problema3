@@ -1,0 +1,21 @@
+#Ejercicio  3
+# Se le pide al usuario la letra de su nombre y genero, si el usuario es de genero M y su nombre comienza con una letra menor a la M (inclusive) y si el usuario es F y comienza con una letra posterior a la M, pertenece al grupo A
+# si no pertenece ir al grupo B
+
+
+nombre= input("Ingrese su nombre \n")
+genero = input("Ingrese su genero \n")
+generomasc = "m"
+generofem = "f"
+
+
+if  (genero==generomasc and nombre<=generomasc ) or (genero==generofem and nombre>generomasc ) :
+    print("ud esta en el grupo A")
+else :
+    print("ud esta en el grupo B")
+
+
+
+
+
+

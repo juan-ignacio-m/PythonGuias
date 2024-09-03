@@ -1,0 +1,19 @@
+# Ejercicio 1
+#Ejemplo 1
+######################################################################
+# Escribir una app que pregunte al usuario su edad y
+# muestre si es mayor o no
+# Mediante If anidados
+
+
+edad = int(input("Dime tu edad\n"))
+
+
+if edad>= 1 and edad<=125 :
+    if edad >= 18 :
+       print("Eres mayor de edad")
+    else :
+        print("Eres menor")
+else:
+    print("Ingresa un valor correcto")
+######################################################################

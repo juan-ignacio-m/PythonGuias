@@ -1,0 +1,14 @@
+#Ejercicio  2
+######################################################################
+# Hacer una app q guarde una contraseña en una variable, preguntar
+# al usuario la contraseña y q imprima pasa o no pasa (tener en cuenta
+# mayuscula y minuscula)
+
+
+clave = input("Dime tu contraseña\n")
+clave_guardada = "clavefalsa123"
+if clave==clave_guardada :
+    print("Clave correcta")
+else :
+    print("Clave incorrecta")
+######################################################################

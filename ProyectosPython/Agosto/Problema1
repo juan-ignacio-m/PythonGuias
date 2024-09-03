@@ -1,0 +1,10 @@
+#PROBLEMA 1 
+#Imprimir un hola mundo
+######################################################################
+# Imprimir por consola la frase "hola mundo"
+variable1= "texto"
+variable2= 7
+variable3= 1.5
+variable4= variable3
+
+print("hola mundo")

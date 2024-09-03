@@ -1,0 +1,21 @@
+# Ejercicio 2
+######################################################################
+# Escribir una app que diga q el usuario ponga un numero y diga si es par o impar
+
+
+numeropregunta = int(input("Ingresa un numero\n"))
+tipovariable1 = type(numeropregunta)
+
+
+print(tipovariable1)
+
+
+if numeropregunta == 0 :
+    print("El numero neutro")
+elif tipovariable1 == int and numeropregunta%2 == 0 :
+    print("El numero es par")
+else :
+    print("El numero no es par")
+
+
+    

@@ -1,0 +1,31 @@
+#Ejercicio  4
+#Ejemplo 1
+######################################################################
+# Los tramos impositivos para la declaración de la renta de un determinado país
+# son rentas impositivas:
+# menos de 10.000 eu 5%
+# 10.000 eu a 20.000 15%
+# 20.000 eu a 35.000 20%
+# 35.000 eu a 60.000 30%
+# más de 60.000 45%
+# Escribir una app q pregunte su renta anual y muestre por pantalla el tipo impositivo
+
+
+renta = float(input("Dime tu renta anual solo con numeros\n"))
+
+
+if renta<=0 :
+    print("Ingrese un dato valido")
+elif renta<10000 :
+    print("Su renta es menor a 10.000 eu le corresponde un 5%")
+elif renta>=10000 and renta<20000 :
+    print("Su renta esta entre 10.000 eu y 20.000 eu le corresponde un 15%")
+elif renta>=20000 and renta<35000:
+    print("Su renta esta entre 20.000 eu y 35.000 eu le corresponde un 20%")
+elif renta>=35000 and renta<60000:
+    print("Su renta esta entre 35.000 eu y 60.000 eu le corresponde un 30%")
+elif renta>=60000 :
+    print("Su renta es menor a 60.000 eu le corresponde un 45%")
+    print("golazooooooo898989")
+
+################################################

@@ -1,0 +1,20 @@
+
+#Ejercicio 7 
+#Escribir un programa que pida al usuario dos números enteros y muestre
+#por pantalla el cociente y el resto de la division entre esos dos
+#numeros. Tenga en cuenta que el primer numero que ingresa el usuario
+#debera ser mas grande que el segundo, y que el cociente es el resultado
+#de la division sin el residuo, y el resto, lo que sobra si es que
+#sobrase.
+
+
+num1 = int(input("Ingrese un numero entero\n"))
+num2 = int(input("Ingrese otro numero entero menor al anterior\n"))
+
+
+cociente = int(num1//num2)
+resto = num1 % num2
+
+
+print (f"el cociente de ese calculo es {cociente} y el resto es {resto} ")
+

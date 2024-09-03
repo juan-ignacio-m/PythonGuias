@@ -1,0 +1,13 @@
+#PROBLEMA 3
+#Problemas condicionales
+######################################################################
+#Nos piden hacer una app que indique que deje pasar o no segun su mayoria de edad a una persona a un boliche
+
+edad = int(input("ingrese su edad "))
+if edad < 1 or edad > 119 :    
+    print("ERROR Ingrese un dato válido")
+elif edad >= 18 :
+    print("usted puede pasar")
+else :
+    print("usted no puede pasar")
+
